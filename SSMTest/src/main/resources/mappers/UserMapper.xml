@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--与UserDao对应-->
+<mapper namespace="com.xf.ssm.dao.UserDao">
+
+    <select id="selectUser" parameterType="user" resultType="user">
+        select * from user where name = #{name} and pwd = #{pwd};
+    </select>
+
+    <select id="selectAllUser" resultType="user">
+        select * from user
+    </select>
+
+    <insert id="addUser" parameterType="user" >
+        insert into user (name, pwd, sex, age) values (#{name}, #{pwd}, #{sex}, #{age})
+    </insert>
+
+    <delete id="deleteUserById" parameterType="Integer">
+        delete from user where id = #{id}
+    </delete>
+
+    <update id="updateUser" parameterType="user">
+        update user set name = #{name}, pwd = #{pwd}, sex = #{sex}, age = #{age} where id = #{id}
+    </update>
+
+</mapper>
