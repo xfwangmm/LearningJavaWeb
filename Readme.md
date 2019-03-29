@@ -13,3 +13,4 @@
 - [JavaEETest](https://github.com/lenve/JavaEETest)
 - [SpringBoot-Learning](https://github.com/dyc87112/SpringBoot-Learning)
 - [awesome-spring-boot](https://github.com/ityouknow/awesome-spring-boot)
+- [spring-boot-book](https://github.com/ityouknow/spring-boot-book)
