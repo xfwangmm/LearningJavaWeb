@@ -4,8 +4,8 @@
 [搭建原生JavaWeb MVCProject](/MVCProject)
 
 ### SSM
-- [SSM整合案例](/SSMTest/ReadMe.md)
-- [SSM搭建简易的人事管理系统](hrms-ssm/ReadMe.md)
+- [SSM整合案例](/SSMTest)
+- [SSM搭建简易的人事管理系统](/hrms-ssm)
 
 ### 学习资源
 - [Java Web入门开发教程](https://github.com/skyline75489/Heart-First-JavaWeb)
