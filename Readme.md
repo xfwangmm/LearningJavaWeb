@@ -1,7 +1,7 @@
 ## Learning JavaWeb
 
 ### MVCProject
-[搭建原生JavaWeb MVCProject](/MVCProject/ReadMe.md)
+[搭建原生JavaWeb MVCProject](/MVCProject)
 
 ### SSM
 - [SSM整合案例](/SSMTest/ReadMe.md)
